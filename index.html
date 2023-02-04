@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/222cea3eed.js"></script>
+    <title>Clone Discord</title>
+</head>
+<body>
+
+    <div class="servers">
+        <div class="logo">
+            <img src="Assets/logo.jpg" alt="Discord">
+        </div>
+        <div class="server-logo">
+            <span class="message__count">105</span>
+            <img src="Assets/server1.webp" alt="server">
+        </div>
+        <div class="server-logo">
+            <span class="message__count">22</span>
+            <img src="Assets/server2.png" alt="server">
+        </div>
+        <div class="server-logo">
+            <span class="message__count">21</span>
+            <img src="Assets/server3.webp" alt="server">
+        </div>
+        <div class="server-logo">
+            <span class="message__count">55</span>
+            <img src="Assets/server4.webp" alt="server">
+        </div>
+        <div class="server-logo">
+            <span class="message__count">13</span>
+            <img src="Assets/server5.png" alt="server">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar__top">
+            <input type="text" placeholder="Find or Start a conversation">
+        </div>
+        <div class="sidebar__icon">
+            <i class="fas fa-user-friends fa-lg"></i>
+            <span>Friends</span>
+        </div>
+        <div class="sidebar__icon">
+            <i class="fas fa-compact-disc fa-lg"></i>
+            <span>Nitro</span>
+        </div>
+        <div class="sidebar__users">
+            <div class="sidebar__usersHeader">
+                <div class="sidebar__header">
+                    <h4>Direct messages</h4>
+                </div>
+                <i class="fas fa-plus sidebar__addUser"></i>
+            </div>
+            <div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="Assets/user1.jpg" alt="avatar">
+                    </div>
+                    <h4>Monkey D. Luffy</h4>
+                </div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="Assets/user2.jpg" alt="avatar">
+                    </div>
+                    <h4>Itadori Yuji</h4>
+                </div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="Assets/user3.jpg" alt="avatar">
+                    </div>
+                    <h4>Tony Tony Chopper</h4>
+                </div>
+                <div class="sidebar__user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="Assets/user4.jpg" alt="avatar">
+                    </div>
+                    <h4>Maki Zen'in</h4>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar__profile">
+            <div>
+                <span class="status"></span>
+                <img src="Assets/user6.jpg" alt="avatar">
+            </div>
+            <div class="sidebar__profileInfo">
+                <h3>Sasuke</h3>
+                <p>#1234</p>
+            </div>
+            <div class="sidebar__profileIcons">
+                <i class="fas fa-microphone"></i>
+                <i class="fas fa-headset"></i>
+                <i class="fas fa-cog"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat">
+        <div>
+            <div class="chatHeader">
+                <div class="chatHeader__left">
+                    <span class="chatHeader__Dm">@</span>
+                    <h3>Tony Tony Choper</h3>
+                </div>
+                <div class="chatHeader__right">
+                    <i class="fas fa-phone-volume fa-lg"></i>
+                    <i class="fas fa-video fa-lg"></i>
+                    <i class="fas fa-thumbtack fa-lg"></i>
+
+                    <div class="search">
+                        <input type="text" placeholder="search">
+                        <i class="fas fa-search fa-lg"></i>
+                    </div>
+
+                    <i class="fas fa-inbox fa-lg"></i>
+                    <i class="fas fa-question-circle fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="chat__messages">
+            <div class="message">
+                <img src="Assets/user3.jpg" alt="avatar">
+                <div class="message__info">
+                    <h4>Tony Tony Chopper <span class="message__timestamp">04/02/2023</span></h4>
+                    <p>Hello</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat__input">
+            <i class="fas fa-plus-circle fa-lg"></i>
+            <form>
+                <input class="sendMessage" type="text" placeholder="send message">
+                <button class="chat__inputButton" type="submit">Send</button>
+            </form>
+            <div class="chat__inputIcons">
+                <i class="fas fa-gift fa-lg"></i>
+                <i class="fas fa-file-image fa-lg"></i>
+                <i class="fas fa-laugh fa-lg"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
