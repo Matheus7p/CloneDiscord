@@ -1,5 +1,5 @@
 <h1 align="center">
-    CLone do Discord
+    Clone do Discord
 </h1>
 
 
