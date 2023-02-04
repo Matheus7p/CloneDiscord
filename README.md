@@ -11,7 +11,7 @@
     
 </p>
 
-# Linguagens | Bibliotecas 
+# Linguagens
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - `HTML`
